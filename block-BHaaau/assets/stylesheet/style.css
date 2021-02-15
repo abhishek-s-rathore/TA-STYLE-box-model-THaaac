@@ -81,6 +81,32 @@ p{
     margin-top:50px;
     margin-bottom: 50px;
 }
+.marker{
+    height:auto;
+    width:fit-content;
+    margin: 60px auto;
+}
+.circle{
+    height:18px;
+    width:18px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.names{
+    display:inline-block;
+}
+.content{
+    background-color: rgb(217,247,212);
+}
+.padding{
+    background-color: rgb(173,216,230);
+}
+.border{
+    background-color: black;
+}
+.margin{
+    background-color: rgb(237,127,128);
+}
 
 .secondbox{
     height:auto;
