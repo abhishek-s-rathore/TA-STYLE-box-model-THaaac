@@ -1,15 +1,44 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_VI</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header>
+     <h1>The Box Model, Box-sizing & Box-shadow</h1>
+     <p class="line">.......................................................................</p>
+    </header>
+    <main>
+        <section>
+        <h3>Exercise1</h3>
+        <div class="firstbox"></div>
+        </section>
+        <section>
+            <h3>Exercise2</h3>
+            <p>no border on these boxes.</p>
+            <div class="secondbox">
+                <div class="achild"></div>
+                <div class="achild"></div>
+                <div class="achild"></div>
+            </div>
+            <p class="line">.......................................................................</p>
+            <p>1px border on these boxes.</p>
+            <div class="secondbox widthsecond">
+                <div class="bchild inline"></div>
+                <div class="bchild inline"></div>
+                <div class="bchild"></div>
+            </div>
+            <p class="line">.......................................................................</p>
+            <p>1px border on these boxes but they are in same line.</p>
+            <div class="secondbox">
+                <div class="cchild"></div>
+                <div class="cchild"></div>
+                <div class="cchild"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
